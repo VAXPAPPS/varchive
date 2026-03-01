@@ -1,0 +1,14 @@
+Package: varchive
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: VAXP Organization <support@vaxp.org>
+Installed-Size: 118
+Depends: libadwaita-1-0 (>= 1.5~beta), libarchive13t64 (>= 3.2.1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.79.0), libgtk-4-1 (>= 4.0.0), libarchive13
+Recommends: p7zip-full, p7zip-rar, unrar, arj, zoo, ncompress, brotli, lrzip, lzop
+Section: utils
+Priority: optional
+Homepage: https://github.com/VAXPAPPS/VArchive
+Description: Professional archive manager for VAXP-OS
+ VArchive is a full-featured File Roller alternative matching the VAXP-OS
+ glassmorphism design language. It natively supports creating, extracting,
+ and modifying over 40 archive formats including ZIP, TAR.GZ, 7Z, RAR, and ISO.

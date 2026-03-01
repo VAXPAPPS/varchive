@@ -1,0 +1,192 @@
+/* VArchive CSS Theme (VAXP-OS Glassmorphism Style) */
+
+/* Base Window Style */
+.var-window {
+    background-color: transparent;
+}
+
+window.background {
+    background-color: rgba(0, 0, 0, 0.392);
+    backdrop-filter: blur(20px);
+}
+
+/* Headerbar (VAXP Style) */
+.var-header-area {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.var-headerbar {
+    min-height: 48px;
+}
+
+.var-headerbar .title {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.var-headerbar .subtitle {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* VAXP Window Control Buttons */
+.var-window-btn {
+    min-width: 12px;
+    min-height: 12px;
+    padding: 0;
+    border-radius: 50%;
+    margin: 0 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-size: 8px 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease;
+}
+
+.var-btn-close {
+    background-color: #ff5f56;
+}
+
+.var-btn-minimize {
+    background-color: #ffbd2e;
+}
+
+.var-btn-maximize {
+    background-color: #27c93f;
+}
+
+.var-window-btn:hover {
+    filter: brightness(1.2);
+}
+
+/* Toolbar Buttons */
+.var-toolbar {
+    padding: 6px;
+}
+
+.var-tool-btn {
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid transparent;
+    color: white;
+    padding: 6px 12px;
+}
+
+.var-tool-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.var-tool-btn.suggested-action {
+    background: rgba(99, 102, 241, 0.8);
+    /* Indigo accent */
+    border: 1px solid rgba(99, 102, 241, 0.5);
+}
+
+.var-tool-btn.suggested-action:hover {
+    background: rgba(99, 102, 241, 1.0);
+}
+
+/* Location Bar */
+.var-location-bar {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 2px 6px;
+}
+
+.var-breadcrumb-btn {
+    font-size: 12px;
+    padding: 4px 8px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+}
+
+.var-breadcrumb-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.var-breadcrumb-sep {
+    opacity: 0.5;
+    margin: 0 4px;
+}
+
+/* Archive List View */
+.var-archive-view {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.data-table {
+    background: transparent;
+}
+
+.data-table row {
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.data-table row:selected {
+    background: rgba(99, 102, 241, 0.3);
+}
+
+.folder-icon {
+    color: #ffd166;
+    /* Yellow tint for folders */
+}
+
+.file-icon {
+    color: #ef476f;
+    /* Default file tint */
+}
+
+/* Statusbar */
+.var-statusbar {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Progress Overlay */
+.var-progress-overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.var-progress-box {
+    background: rgba(30, 30, 30, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.var-progress-box .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.var-progress-box .detail {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.var-progress {
+    min-height: 8px;
+    border-radius: 4px;
+}
+
+.var-progress trough {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.var-progress progress {
+    background: #6366f1;
+    /* Indigo */
+    border-radius: 4px;
+}

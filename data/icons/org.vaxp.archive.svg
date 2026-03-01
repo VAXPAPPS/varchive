@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e0e7ff" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#312e81" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bg)"/>
+
+  <!-- Box body -->
+  <g filter="url(#shadow)">
+    <rect x="28" y="52" width="72" height="44" rx="6" fill="url(#box)"/>
+    <!-- Box center line -->
+    <line x1="64" y1="52" x2="64" y2="96" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Box lid -->
+  <g filter="url(#shadow)">
+    <path d="M24 52 L40 32 L88 32 L104 52 Z" fill="url(#lid)" stroke="#818cf8" stroke-width="1.5"/>
+    <!-- Lid center line -->
+    <line x1="64" y1="32" x2="64" y2="52" stroke="#a5b4fc" stroke-width="2"/>
+  </g>
+
+  <!-- Zipper / teeth marks -->
+  <rect x="60" y="58" width="8" height="5" rx="1" fill="#6366f1" opacity="0.7"/>
+  <rect x="60" y="67" width="8" height="5" rx="1" fill="#6366f1" opacity="0.5"/>
+  <rect x="60" y="76" width="8" height="5" rx="1" fill="#6366f1" opacity="0.35"/>
+  <rect x="60" y="85" width="8" height="5" rx="1" fill="#6366f1" opacity="0.2"/>
+
+  <!-- Arrow (extract indicator) -->
+  <path d="M64 18 L72 28 L56 28 Z" fill="#a5b4fc" opacity="0.8"/>
+</svg>

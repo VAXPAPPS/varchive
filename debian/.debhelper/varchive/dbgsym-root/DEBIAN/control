@@ -1,0 +1,13 @@
+Package: varchive-dbgsym
+Package-Type: ddeb
+Source: varchive
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: VAXP Organization <support@vaxp.org>
+Installed-Size: 163
+Depends: varchive (= 1.0.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for varchive
+Build-Ids: b4744831c0df1af7cff9476a272a3e6a26a5492f
