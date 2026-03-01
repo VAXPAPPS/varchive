@@ -356,8 +356,7 @@ la_create (VarBackend *backend, const char *archive_path, VarFormatType format,
         for (guint i = 0; i < files->len; i++) {
             if (cancellable && g_cancellable_is_cancelled (cancellable)) break;
 
-            GFile *file = G_FILE (g_ptr_array_index (files, i));
-            g_autofree char *filepath = g_file_get_path (file);
+            const char *filepath = (const char *)g_ptr_array_index (files, i);
             g_autofree char *entry_name = NULL;
 
             if (base_dir) {
