@@ -1,6 +1,6 @@
 # VArchive
 
-VArchive is a professional, full-featured archive manager built specifically for the **VAXP-OS** ecosystem. Designed as a modern alternative to File Roller, VArchive leverages GTK4 and libadwaita to deliver a stunning glassmorphism user interface while providing comprehensive archive management capabilities.
+VArchive is a professional, full-featured archive manager built specifically for the **VAXP-OS** ecosystem. Designed as a modern alternative , VArchive leverages GTK4 and libadwaita to deliver a stunning glassmorphism user interface while providing comprehensive archive management capabilities.
 
 ## Features
 
