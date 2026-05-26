@@ -9,6 +9,7 @@ varchive_sources = [
     # Core
     'core/var-utils.c',
     'core/var-application.c',
+    'core/theme_manager.c',
 
     # Backend
     'backend/var-backend.c',

@@ -7,6 +7,7 @@
 
 #include "var-application.h"
 #include "../presentation/windows/var-main-window.h"
+#include "theme_manager.h"
 
 struct _VarApplication {
     AdwApplication  parent_instance;
@@ -110,6 +111,8 @@ var_application_startup (GApplication *app)
                                     app_actions,
                                     G_N_ELEMENTS (app_actions),
                                     app);
+
+    theme_manager_init();
 
     /* Keyboard shortcuts */
     const char *quit_accels[]  = { "<Control>q", NULL };
